@@ -26,11 +26,11 @@ public class UsuarioJogo {
         this.pontuacao += valor;
     }
 
-    public void getPontuacao() {
+    public void showPontuacao() {
         System.out.println(this.nome + " tenho " + this.pontuacao + " pontos");
     }
 
-    public void getNivel() {
+    public void showNivel() {
         System.out.println(this.nome + " sou nivel " + this.nivel);
     }
 }

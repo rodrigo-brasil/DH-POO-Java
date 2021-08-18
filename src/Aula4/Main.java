@@ -1,7 +1,5 @@
 package Aula4;
 
-import java.util.LinkedList;
-
 public class Main {
     public static void main(String[] args) {
         UsuarioJogo jogador1 = new UsuarioJogo("Joao", "joazinho");
@@ -11,14 +9,14 @@ public class Main {
         jogador1.aumentarPontuacao();
         jogador1.subirNivel();
         jogador1.bonus(20);
-        jogador1.getNivel();
-        jogador1.getPontuacao();
+        jogador1.showNivel();
+        jogador1.showPontuacao();
 
         jogador2.aumentarPontuacao();
         jogador2.subirNivel(5);
         jogador2.bonus(10);
-        jogador2.getNivel();
-        jogador2.getPontuacao();
+        jogador2.showNivel();
+        jogador2.showPontuacao();
 
 
     }
