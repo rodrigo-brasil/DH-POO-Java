@@ -18,6 +18,9 @@ public class UsuarioJogo {
     public void subirNivel() {
         this.nivel++;
     }
+    public void subirNivel(int valor) {
+        this.nivel+=valor;
+    }
 
     public void bonus(int valor) {
         this.pontuacao += valor;
